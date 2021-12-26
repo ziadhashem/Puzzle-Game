@@ -14,19 +14,17 @@ body {
     border-radius: 50px;
 }
 
-#drawing-area{
-    padding:10% 0 10% 15%;
-}
 
 table#demotable {
     table-layout: fixed ;
-    width: 80% ;
+    width: 100% ;
     border-collapse: collapse ;
     border: 0px black solid ;
-    margin:20px;
+    margin:0px;
+    padding: 2px;
   }
   table#demotable td {
-    width: 25% ;
+    width: auto ;
     /* border: 1px black solid ; */
     padding: 0px ;
   }
