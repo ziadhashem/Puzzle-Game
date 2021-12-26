@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Puzzle</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <link href="css/main.css" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+    <div class="container-fluid container">
+        <div class="card card0 border-0">
+            <div class="row d-flex" >
+                <div class="col-lg-8">
+                    <div class="card1 pb-1 border-line"  width="860" id="drawing-area">
+                        <table id="demotable">
+                            
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-4 p-3">
+                    <div id="title-container">
+                        <img src="image/puzzle.jpg" width="100"/>
+                        <p class="title">Puzzle Game</p>
+                    </div>
+                    <div class="well-sm">
+                     <form>
+                            <div class="form-group row">
+                                <label for="photo" class="col-sm-3 col-form-label">Photo</label>
+                                <div class="col-sm-8">
+                                    <select class="form-control form-control-sm" id="photo">
+                                        <option value="">Please Select ... </option>
+                                        <option value="tom">Tom</option>
+                                        <option value="jerry">Jerry</option>
+                                        <option value="tom_and_jerry">Tom And Jerry</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="form-group">
+                                <button type="button" id="drawing-btn" class="btn btn-primary  col-sm-11">Reset Puzzle ... </button>
+                            </div>
+                        </form> 
+                     </div>
+                </div>
+            </div>
+            <div class="bg-blue px1">
+                <div class="row px-4"> <small class="ml-4 ml-sm-5 mb-2 title2">DEVELOPED BY ZIAD HASHEM</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/blockUI.js"></script>
+</body>
+</html>
