@@ -22,6 +22,7 @@ table#demotable {
     border: 0px black solid ;
     margin:0px;
     padding: 2px;
+    cursor: pointer;
   }
   table#demotable td {
     width: auto ;

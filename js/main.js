@@ -18,19 +18,27 @@ $(`#demotable`).empty();
 $(`#demotable`).append(GetPhoto("image",false));
 
 
-$(`#photo`).change(function(){
-    let photo = $(this).val();
-    $(`#demotable`).empty();
-    $(`#demotable`).append(GetPhoto(`image/${photo}`,false));
-    preparePhotoToPlay();
-});
-
-$(`#Solving-btn`).click(function(){
+function Scattering(state){
     let photo = $(`#photo`).val();
     $(`#demotable`).empty();
-    $(`#demotable`).append(GetPhoto(`image/${photo}`,true));
+    $(`#demotable`).append(GetPhoto(`image/${photo}`,state));
     preparePhotoToPlay();
+}
+
+
+$(`#photo`).change(function(){
+   Scattering(false);
 });
+
+$(`#Scattering-btn`).click(function(){
+    Scattering(false);
+});
+
+
+$(`#Solving-btn`).click(function(){
+    Scattering(true);
+});
+
 
 
 function GetPhoto(path ,Solving){
