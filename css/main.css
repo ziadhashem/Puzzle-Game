@@ -5,7 +5,7 @@ body {
     background-color: lavender;
     padding: 2%;
     padding-top: 2%;
-    
+    background-image:  url("../image/puzzle_background.png");    
 }
 
 .container{
@@ -38,6 +38,7 @@ table#demotable {
 .title{
     font-family: 'Architects Daughter', cursive;
     font-size: 25px;
+    /* padding-left: 50px; */
 }
 .title2{
     font-family: 'Architects Daughter', cursive;
@@ -51,20 +52,16 @@ table#demotable {
  }
 
 .card0 {
+    background-color: #CDDEFF;
     /* box-shadow: 0px 4px 0px 0px #757575; */
     /* border-radius: 50px 50px 0px 0px; */
 }
 
 .card1 {
+    background-color: white;
     /* box-shadow: 0px 4px 8px 0px #757575; */
     border-radius: 50px 0 0 0;
     height:100%
-}
-
-.card2 {
-    padding: 15px;
-    margin: 0px 10px;
-    /* border-radius: 50px 0 0 0; */
 }
 
 .logo {
