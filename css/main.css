@@ -8,6 +8,14 @@ body {
     background-image:  url("../image/puzzle_background.png");    
 }
 
+#photo{
+    height: 40px;
+}
+
+
+.form-group{
+    margin-top: 20px;
+}
 .container{
     height:100%;
     width:100%;
@@ -21,7 +29,7 @@ table#demotable {
     border-collapse: collapse ;
     border: 0px black solid ;
     margin:0px;
-    padding: 2px;
+    padding: 0px;
     cursor: pointer;
   }
   table#demotable td {
@@ -58,6 +66,7 @@ table#demotable {
 }
 
 .card1 {
+    /* border: 2px solid #4e0606; */
     background-color: white;
     /* box-shadow: 0px 4px 8px 0px #757575; */
     border-radius: 50px 0 0 0;
@@ -159,9 +168,20 @@ a {
 
 }
 
-@media screen and (max-width: 991px) {
-    .logo {
-        margin-left: 0px
+
+@media screen and (max-width: 995px) {
+    #logo {
+       height: 50%;
+       width: 50%;
+    }
+
+    #photo{
+        height:40px;
+        width: 100%;
+    }
+    #img_show{
+        height:40px;
+        width: 100%;
     }
 
     .image {
@@ -177,48 +197,13 @@ a {
         border-top: 1px solid #EEEEEE !important;
         margin: 0px 15px
     }
-}
 
-
-
-@media screen and (max-width: 370px) {
-    .title{
-        font-family: 'Architects Daughter', cursive;
-        font-size: 25px;
-    }
-    .title2{
-        font-family: 'Architects Daughter', cursive;
-        font-size: 14px;
-    }
-    #title-container{
-        margin:30px;
-        padding-left: 50px;
-        margin-bottom: 100px;
-     }
-    
-    .card0 {
-        box-shadow: 0px 4px 8px 0px #757575;
-        border-radius: 0px;
-        height:100vh
-    }
-    
     .card1 {
-        box-shadow: 0px 4px 8px 0px #757575;
-        border-radius: 0px;
-        height:100vh
+        /* border: 2px solid #4e0606; */
+        background-color: white;
+        /* box-shadow: 0px 4px 8px 0px #757575; */
+        border-radius: 50px 0 0 0;
+        height:50%
     }
-    
-    .card2 {
-        margin: 0px 40px
-    }
-    
-    .logo {
-        width: 200px;
-        height: 100px;
-        margin-top: 20px;
-        margin-left: 35px
-    }
-    
 }
-
 

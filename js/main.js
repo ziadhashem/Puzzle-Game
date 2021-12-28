@@ -14,16 +14,21 @@ function preparePhotoToPlay(){
 }
 
 
+
 $(`#demotable`).empty();
 $(`#demotable`).append(GetPhoto("image/default",true));
 preparePhotoToPlay();
-
+$(`#img_show`).hide();
 
 function Scattering(state){
     let photo = $(`#photo`).val();
-    $(`#demotable`).empty();
-    $(`#demotable`).append(GetPhoto(`image/${photo}`,state));
-    preparePhotoToPlay();
+    if(photo != ''){
+        $(`#img_show`).prop('src',`image/${photo}/${photo}.jpg`);
+        $(`#img_show`).show();
+        $(`#demotable`).empty();
+        $(`#demotable`).append(GetPhoto(`image/${photo}`,state));
+        preparePhotoToPlay();
+    }
 }
 
 
