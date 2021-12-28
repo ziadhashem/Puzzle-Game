@@ -18,8 +18,8 @@ body {
 }
 .container{
     height:100%;
-    width:100%;
-    border-radius: 50px;
+    width:100vw;
+    /* border-radius: 50px; */
 }
 
 
@@ -170,6 +170,11 @@ a {
 
 
 @media screen and (max-width: 995px) {
+    body {
+        margin:0;
+        padding:0;
+        background-color: #CDDEFF;
+    }
     #logo {
        height: 50%;
        width: 50%;
@@ -221,6 +226,15 @@ a {
         margin:0px;
         padding: 0px;
         cursor: pointer;
+    }
+
+   
+
+    .card0 {
+        background-color: #CDDEFF;
+        width: 100%;
+        margin:0;
+        padding:0;
     }
      
 }
