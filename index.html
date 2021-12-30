@@ -8,7 +8,8 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <link href="css/main.css" rel="stylesheet">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="js/sweetalert.min.js"></script>
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
 </head>
 <body>
     <div class="container">
@@ -22,8 +23,8 @@
                     </div>
                     
                     <form  id="form">
-                                <div class="form-group">
-                                    <div class="row">
+                            
+                                    <div class="form-group row">
                                         <div class="col-2">
                                             <label for="photo" >Photo</label>
                                         </div>
@@ -45,15 +46,17 @@
                                       </div>
                                    
                                     
-                                </div>
+                            
                                 <div class="form-group">
                                     <button type="button" id="Scattering-btn" class="btn btn-primary  col-sm-5">Scattering</button>
-                                    <button type="button" id="Solving-btn" class="btn btn-primary  col-sm-6">Solving</button>
+                                    <button type="button" id="Solving-btn" class="btn btn-primary  col-sm-5">Solving</button>
+                                    <!-- <button type="button" id="Solving-backtracking-btn" class="btn btn-primary  col-sm-6">Solving By Backtracking</button> -->
+
                                 </div>
                     </form> 
                 </div>
                 <div class="col-lg-8">
-                    <div class="card1 pb-1 border-line" id="drawing-area">
+                    <div class="card1 pb-1">
                         <table id="demotable">
                             
                         </table>
