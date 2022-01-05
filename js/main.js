@@ -83,25 +83,25 @@ function GetPhoto(path ,Solving){
     }
     else{
         return  `<tr>
-                    <td id="cell_1_1" data-x="1" data-y="1" data-index="16"><img data-img="part_of_photo" data-index="16" src="${path}/16.jpg"   height=130 width=100%></img></td>
+                    <td id="cell_1_1" data-x="1" data-y="1" data-index="16"><img data-img="part_of_photo" data-index="16" src="${path}/5.jpg"   height=130 width=100%></img></td>
                     <td id="cell_2_1" data-x="2" data-y="1" data-index="15"><img data-img="part_of_photo" data-index="15" src="${path}/15.jpg"   height=130 width=100%></img></td>
-                    <td id="cell_3_1" data-x="3" data-y="1" data-index="14"><img data-img="part_of_photo" data-index="14" src="${path}/14.jpg"   height=130  width=100%></img></td>
+                    <td id="cell_3_1" data-x="3" data-y="1" data-index="14"><img data-img="part_of_photo" data-index="14" src="${path}/12.jpg"   height=130  width=100%></img></td>
                     <td id="cell_4_1" data-x="4" data-y="1" data-index="13"><img data-img="part_of_photo" data-index="13" src="${path}/13.jpg"   height=130  width=100%></img></td>
                 </tr>
                 <tr>
-                    <td id="cell_1_2" data-x="1" data-y="2" data-index="12"><img data-img="part_of_photo" data-index="12" src="${path}/12.jpg"   height=130  width=100%></img></td>
+                    <td id="cell_1_2" data-x="1" data-y="2" data-index="12"><img data-img="part_of_photo" data-index="12" src="${path}/14.jpg"   height=130  width=100%></img></td>
                     <td id="cell_2_2" data-x="2" data-y="2" data-index="11"><img data-img="part_of_photo" data-index="11" src="${path}/11.jpg"   height=130  width=100%></img></td>
                     <td id="cell_3_2" data-x="3" data-y="2" data-index="10"><img data-img="part_of_photo" data-index="10" src="${path}/10.jpg"   height=130  width=100%></img></td>
-                    <td id="cell_4_2"  data-x="4" data-y="2" data-index="9"><img data-img="part_of_photo" data-index="9" src="${path}/9.jpg"     height=130  width=100%></img></td>
+                    <td id="cell_4_2"  data-x="4" data-y="2" data-index="9"><img data-img="part_of_photo" data-index="9" src="${path}/4.jpg"     height=130  width=100%></img></td>
                 </tr>
                 <tr>
                     <td id="cell_1_3" data-x="1" data-y="3" data-index="8"><img data-img="part_of_photo" data-index="8" src="${path}/8.jpg"   height=130  width=100%></img></td>
                     <td id="cell_2_3" data-x="2" data-y="3" data-index="7"><img data-img="part_of_photo" data-index="7" src="${path}/7.jpg"   height=130  width=100%></img></td>
                     <td id="cell_3_3" data-x="3" data-y="3" data-index="6"><img data-img="part_of_photo" data-index="6" src="${path}/6.jpg"   height=130  width=100%></img></td>
-                    <td id="cell_4_3" data-x="4" data-y="3" data-index="5"><img data-img="part_of_photo" data-index="5"src="${path}/5.jpg"   height=130  width=100%></img></td>
+                    <td id="cell_4_3" data-x="4" data-y="3" data-index="5"><img data-img="part_of_photo" data-index="5"src="${path}/16.jpg"   height=130  width=100%></img></td>
                 </tr>
                 <tr>
-                    <td id="cell_1_4" data-x="1" data-y="4" data-index="4"><img data-img="part_of_photo" data-index="4" src="${path}/4.jpg"   height=130  width=100%></img></td>
+                    <td id="cell_1_4" data-x="1" data-y="4" data-index="4"><img data-img="part_of_photo" data-index="4" src="${path}/9.jpg"   height=130  width=100%></img></td>
                     <td id="cell_2_4" data-x="2" data-y="4" data-index="3"><img data-img="part_of_photo" data-index="2" src="${path}/2.jpg"   height=130  width=100%></img></td>
                     <td id="cell_3_4" data-x="3" data-y="4" data-index="2"><img data-img="part_of_photo" data-index="3" src="${path}/3.jpg"   height=130  width=100%></img></td>
                     <td id="cell_4_4" data-x="4" data-y="4" data-index="1"></td>
